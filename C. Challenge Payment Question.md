@@ -158,9 +158,10 @@ ON cp.plan_id = p.plan_id
 WHERE cp.paymant_date != cp.next_plan_start; -- filter out any duplicate payments from old and new plans
 ````
 
+![Zrzut ekranu 2024-10-03 142032](https://github.com/user-attachments/assets/b326e985-a16b-4eb0-806e-0e7273004dc2)
 
 
-
+***
 
 ### Final thoughts
 
@@ -171,3 +172,5 @@ To improve the database, we need to make some changes:
 
 
 #### New Relationship Diagram
+
+![Zrzut ekranu 2024-10-03 144954](https://github.com/user-attachments/assets/232cb759-b67b-4ed5-8550-a370ea17d130)
