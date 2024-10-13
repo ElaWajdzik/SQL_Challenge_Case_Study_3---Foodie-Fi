@@ -81,19 +81,28 @@ ORDER BY DATETRUNC(month, payment_date);
 
 ### 2. What key metrics would you recommend Foodie-Fi management to track over time to assess performance of their overall business?
 
-In a bussines is a lot of good 
+A few key metrics I would recommend Fodie-Fi management to track over time to assess the performance of their overall business are:
 
-Liczba klientów - wszyscy i tylko płatni
-Miesięczne pozyskane środków
-Popularny plan
-CAC
-LTV
+* **Number of customers (split by paid and free customers)**: This metric shows whether we are still expanding the market and can retain acquired customers for a longer period of time.
 
+* **Churn rate**: The percentage of customers who stop using the service over time. This metric will indicate if customers are satisfied with Fodie-Fi’s offering.
+
+* **Monthly revenue**: The total amount collected from paid subscriptions.
+
+* **Monthly periodized revenue**: The total amount collected, distributed evenly over the subscription period (e.g., if a customer buys an annual subscription in February, the transaction is divided into twelve equal parts and assigned to each month the subscription is active). This metric helps track consistent revenue growth over time, even when annual plans may introduce seasonal fluctuations.
+
+* **Monthly business costs**: All business-related costs (marketing, employee salaries, website maintenance, etc.). By comparing revenue and costs, we can calculate **net profit**, which is crucial for evaluating the overall health of the business.
+
+* **CAC (Customer Acquisition Cost)**: The total cost of acquiring a new customer, including marketing and sales expenses. It is useful to set a maximum CAC threshold that we aim not to exceed.
+
+* **LTV (Customer Lifetime Value)**: Predicts the net profit a company expects to earn from a customer over the entire duration of their relationship.
 
 
 ***
 
 ### 3. What are some key customer journeys or experiences that you would analyse further to improve customer retention?
+
+
 ***
 
 ### 4. If the Foodie-Fi team were to create an exit survey shown to customers who wish to cancel their subscription, what questions would you include in the survey?
