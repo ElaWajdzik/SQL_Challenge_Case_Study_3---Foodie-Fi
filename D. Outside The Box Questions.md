@@ -102,6 +102,13 @@ A few key metrics I would recommend Fodie-Fi management to track over time to as
 
 ### 3. What are some key customer journeys or experiences that you would analyse further to improve customer retention?
 
+Every customer starts using Foodie-Fi with a 7-day free trial, after which they can choose a paid subscription (monthly or annual). First, I would analyze **the source of acquisition** for each customer and check if certain sources are better or worse at converting free trial users into paid customers. It would also be helpful to **examine what customers do during the trial period** (e.g., how often they use the platform, what content they watch, etc.) and identify any actions that are common among users who ultimately become paid customers.
+
+Once the key actions correlated with conversion are identified, I would conduct **A/B testing** with new customers. Group A would experience the platform as it is, while Group B would be exposed to changes designed to encourage conversion. For instance, Group B could receive special newsletters showcasing platform features, see tutorials highlighting key functions upon login, or be offered a limited-time discount (e.g., 10% off) on a first subscription.
+
+I would also recommend conducting **satisfaction surveys** for all customers—after the trial, after their first month, and after long-term use. Analyzing the results can reveal strengths and areas for improvement. Additionally, sending **surveys to churned customers** can help identify the main reasons for their departure, though response rates for these surveys are typically low, but even a few responses can provide valuable insights.
+
+Finally, I would **analyze the behavior of long-term customers** compared to those who have churned. For example, customers who are about to churn might stop logging into the platform, which could trigger a reminder email or push notification highlighting a great show or unfinished episodes. This proactive step could re-engage users and reduce future churn.
 
 ***
 
