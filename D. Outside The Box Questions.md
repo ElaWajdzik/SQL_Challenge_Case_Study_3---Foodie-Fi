@@ -113,6 +113,62 @@ Finally, I would **analyze the behavior of long-term customers** compared to tho
 ***
 
 ### 4. If the Foodie-Fi team were to create an exit survey shown to customers who wish to cancel their subscription, what questions would you include in the survey?
+
+The exit survey should be short and simple to avoid discouraging customers from completing it. It should contain a few questions with a multiple-choice checklist (with the answers randomized) and an open-ended question where customers can share any thoughts about the product. To increase response rates, we could consider offering a small discount or free trial to those who complete the survey.
+
+1. What was the primary reason you decided to cancel your subscription?
+
+	* Price too high
+	* Found a better alternative
+	* No longer need the service
+	* Lack of features I need
+	* Lack of cooking shows I want
+	* Service issues (e.g., streaming, loading)
+	* Other (please specify)
+
+2. Were there any features you found lacking or that didn’t meet your expectations? If yes, which ones?
+	
+	(Open-ended)
+
+3. How satisfied were you with the overall usability of the platform?
+
+	* Very satisfied
+	* Satisfied
+	* Neutral
+	* Dissatisfied
+	* Very dissatisfied
+
+4. How satisfied were you with the overall catalog of shows on the platform?
+
+	* Very satisfied
+	* Satisfied
+	* Neutral
+	* Dissatisfied
+	* Very dissatisfied
+
+5. How likely are you to recommend our service to others, even though you are no longer using it?
+	
+	Scale from 0-10 (Net Promoter Score)
+
+6. Any other comments or suggestions you would like to share?
+	
+	(Open-ended)
+
 ***
 
 ### 5. What business levers could the Foodie-Fi team use to reduce the customer churn rate? How would you validate the effectiveness of your ideas?
+
+It would be a good idea to create simple **satisfaction surveys** within the platform.
+
+1. How likely are you to recommend our service to others? (Scale from 0-10, Net Promoter Score)
+
+2. What could we improve to make your experience better? (Open-ended)
+
+3. Do you have any additional comments or suggestions? (Open-ended)
+
+Quantitative research, like satisfaction surveys, is important because it provides a broad overview of strengths and weaknesses. However, it would also be beneficial to conduct **qualitative research** with a small group of customers, using more in-depth and detailed questions.
+
+When developing new features on the platform, it would be useful to implement **A/B testing**. After that, analyzing the data collected from these tests will help determine if the changes had a positive impact or improvement.
+
+Additionally, it would be helpful to **analyze the behavior of the best customers** and identify the actions they frequently take or the shows they watch. Using this information, you could proactively engage customers who are at high risk of churning through emails, push notifications, or reminders when they log in to the platform.
+
