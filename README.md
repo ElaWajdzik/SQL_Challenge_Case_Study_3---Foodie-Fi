@@ -78,7 +78,7 @@ customer_id | plan_id | start_date
 
 - [C. Challenge Payment Question](https://github.com/ElaWajdzik/SQL_Challenge_Case_Study_3---Foodie-Fi/blob/main/C.%20Challenge%20Payment%20Question.md)
 
-- [D. Outside The Box Questions]()
+- [D. Outside The Box Questions](https://github.com/ElaWajdzik/SQL_Challenge_Case_Study_3---Foodie-Fi/blob/main/D.%20Outside%20The%20Box%20Questions.md)
 
 <br/>
 
