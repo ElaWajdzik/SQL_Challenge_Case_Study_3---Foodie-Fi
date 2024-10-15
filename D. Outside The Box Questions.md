@@ -9,13 +9,14 @@ The following are open ended questions which might be asked during a technical i
 #### Startegia A - The rate of growth based on number of customers 
 
 In the dataset, the data mostly comes from 2020, which is why the best way to calculate the growth rate is to use monthly periods. This parameters is also useful to monitor over different time periods (e.g. weekly, quarterly, yearly). If we take a longer spread of time, this parameter will better show the long-term trends.
-<br><br>
-$$
+````math
 Growth Rate = \frac{Customers\_Current\_month - Customers\_Previous\_month}{Customers\_Previous\_month}  x  100
-$$
+````
 
 Based on the calculated data on the number of new customers and new paying customers, aggregated by each month (SQL code below), I have prepared visualizations of the Growth Rate. The growth rate shows significant fluctuations from month to month. Overall, it tends to hover around 0%. If Foodie-Fi wants to grow, they should focus more on outbound campaigns and implement more marketing strategies to build a larger customer base and establish a strong, healthy business.
 <br><br>
+
+![Zrzut ekranu 2024-10-03 230933](https://github.com/user-attachments/assets/2ff1d509-3a64-4a24-b11f-b4ba93323afa)
 
 
 ````sql
@@ -58,15 +59,17 @@ ON pc.start_date = nc.start_date;
 ````
 
 #### Startegia B - The rate of growth based on revenue 
-<br><br>
-$$
+
+````math
 Growth Rate = \frac{Revenue\_Current\_month - Revenue\_Previous\_month}{Revenue\_Previous\_month} x 100
-$$
+````
+
 <br><br>
 As in **strategi A** I calculated the growth rate is to use monthly periods. Based on the data in the ```customer_payments```  table, I aggregated the revenue by each month (SQL code below). I have prepared visualizations of the Growth Rate. The growth rate shows a significant decline at the end of the year. The revenue grew from the beginning of 2020 but slowed down in the second half of the year. To provide a complete picture, I also added a chart showing the revenue value for each month.
 
 Another approach to measuring growth would be to calculate the rate of growth based on profit, but in this dataset, we don't have data on costs.
 
+![Zrzut ekranu 2024-10-04 123945](https://github.com/user-attachments/assets/8f709f17-5635-4f4d-854e-a4299de1e3b7)
 
 ````sql
 SELECT 
@@ -76,6 +79,8 @@ FROM customer_payments
 GROUP BY DATETRUNC(month, payment_date)
 ORDER BY DATETRUNC(month, payment_date);
 ````
+![Zrzut ekranu 2024-10-04 124004](https://github.com/user-attachments/assets/809e5153-2283-4905-b0e8-81b507d66a80)
+
 
 ***
 
